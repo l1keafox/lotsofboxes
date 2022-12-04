@@ -11,23 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.tile > img{
-  height: 100%;
-  width: 100%;
-  object-fit:cover;
-  border-radius:inherit;
-}
-
-.tile:hover {
-  transform:scale(1.1);
-}
-
-img {
-  opacity: 0;
-  transition: all 1s linear;
-}
-.tile:hover > img{
-  opacity:1;
-  transform: scale(1.01);
-}
